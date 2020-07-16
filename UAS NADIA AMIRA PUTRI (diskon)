@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+
+    int totalHarga,disc,kembalian;
+    cout<<"*************UAS BAHASA PEMROGRAMAN*****************"<<endl;
+    cout<<"Masukkan total harga : Rp. " ;
+    cin>>totalHarga;
+    cout<<"Masukkan discount (%) : ";
+    cin>>disc;
+    cout<<"_________________________________"<<endl;
+    cout<<"total Harga : Rp."<<totalHarga<<endl;
+    cout<<"Besar Diskon : Rp."<<totalHarga/disc<<endl;
+    cout<<"_________________________________"<<endl;
+    kembalian=totalHarga-(totalHarga/disc);
+    cout<<"kembalian : Rp."<<kembalian<<endl;
+    return 0;
+
+}
